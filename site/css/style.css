@@ -135,14 +135,14 @@
 
 .bord {
   position: relative;
-  border: 1px solid green;
-  
+  border: 1px solid black;
   margin-right: 10px;
   margin-left: 10px;
-  
+  background-color: gray;
 }
 .para {
   margin: 25px 10px 10px 10px;
+  font-family: 微软雅黑;
 }
 
 section {
@@ -154,8 +154,9 @@ body {
 }
 
 
-h1 {
+#title {
   text-align: center;
+  font-size: 1.75em;
 }
 
 .header {
@@ -163,6 +164,7 @@ h1 {
   position: absolute;
   right: 0px;
   padding: 0 10px 0 10px;
+  font-size: 1.25em;
 }
 
 .greenbg{
